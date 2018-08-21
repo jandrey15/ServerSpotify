@@ -1,4 +1,4 @@
-FROM node:6.11
+FROM mhart/alpine-node:10 as base
 EXPOSE 8888
 
 WORKDIR /app
@@ -8,7 +8,5 @@ RUN npm install
 
 ADD . /app
 
-# ENTRYPOINT ["/app/auth/app.js"]
-
 CMD ["node", "app"]
-# CMD ["node"]
+# CMD ["node", "./node_modules/.bin/next", "start"]
