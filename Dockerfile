@@ -8,6 +8,7 @@ RUN npm install
 
 ADD . /app
 
-ENTRYPOINT ["/auth"]
+ENTRYPOINT ["/auth/app.js"]
 
-CMD ["node", "app"]
+# CMD ["node", "app"]
+CMD ["node"]
