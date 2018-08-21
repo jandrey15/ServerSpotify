@@ -3,7 +3,9 @@
   "env": {
     "NODE_ENV": "production",
     "PORT": "8888",
-    "HOST": "0.0.0.0"
+    "HOST": "0.0.0.0",
+    "CLIENT_ID": "@client_id",
+    "CLIENT_SECRECT": "@client_secrect"
   },
   "type": "docker",
   "features": {
