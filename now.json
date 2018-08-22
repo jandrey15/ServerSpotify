@@ -1,6 +1,6 @@
 {
   "name": "ServerSpotify",
-  "alias": "serverspotify.johnserrano.xyz",
+  "alias": "server.johnserrano.xyz",
   "env": {
     "NODE_ENV": "production",
     "PORT": "8888",
