@@ -8,7 +8,7 @@
     "CLIENT_ID": "@client_id",
     "CLIENT_SECRECT": "@client_secrect",
     "REDIRECT": "https://server.johnserrano.xyz/callback",
-    "REDIRECT_HOME": "https://spotify.johnserrano.xyz"
+    "REDIRECT_HOME": "https://spotify.johnserrano.xyz/#"
   },
   "public": true,
   "type": "docker",
